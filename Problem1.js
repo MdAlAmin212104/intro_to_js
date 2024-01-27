@@ -25,7 +25,18 @@ console.log(remainder);
 
 // Task 4 of problem
 
-const number1 = 10;
-const number2 = "10";
-const result = number1 + number2;
-console.log(result);
+
+var x = 10;
+var result1 = isNaN(x);  // false, because x is a number
+console.log(result1); 
+
+var y = 'Hello';
+var result2 = isNaN(y);  // true, because 'Hello' cannot be converted to a number
+console.log(result2);
+
+
+var a = isNaN(2 - 10);
+console.log(a);
+
+var a = isNaN(2 - 10);
+console.log(a);  // Output: false
